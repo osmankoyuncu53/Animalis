@@ -1,0 +1,221 @@
+
+/*//////////////////////////////////////////*/
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	font-family:  sans-serif;
+}
+
+/*--------------------A Etiketi-------------------------*/
+a {
+	
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+a:focus {
+	outline: none !important;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/*-------------------h1,p-------------------------*/
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
+p {
+	
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+}
+
+
+
+/*-----------------------Container-row-login-form stil kısmı------------------------- */
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row{
+  width: 100%;  
+  min-height: 100vh;
+  /* flex*/
+  display: flex;
+  flex-wrap: wrap;/*justify-content flex-özelligidr */
+  justify-content: center;/*yatay eksende Öğeleri ortada hizala.*/
+  align-items: center;/*dikey eksende ortada hizala */
+  padding: 15px;
+  -webkit-background-size: cover;/*Chrome ve Safari (-webkit-) */
+}
+
+
+.imgG{
+	background: url(../img/b2.jpg) no-repeat center;	
+}
+.imgS{
+	background: url(../img/sponsorBanner.jpg) no-repeat center;	
+}
+
+.login-form {
+  width: 500px;
+background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+
+/*------------------------------------------------------------*/
+
+.login-form2{
+  width: 100%;
+}
+
+.login-form2-title {
+  display: block;
+  font-size: 30px;
+ color : #ffffff;
+  line-height: 1.2;
+  text-align: center;
+}
+
+
+
+/*--------------------------İnput---------------------------------- */
+
+input {
+	outline: none;
+	border: none;
+}
+/*input border*/
+.input-brd {/*input arka plan rengi ve border kısmı ayarlanır. */
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+}
+/*input boyut*/
+.input-byt {
+  display: block;
+  width: 100%;
+  background: transparent;
+  font-size: 15px;
+  color: #666666;
+  line-height: 1.2;
+}
+input.input-byt {/*inputun textbox kısmının yüksekligini belirledim.*/
+  height: 68px;
+  padding: 0 25px 0 25px;
+}
+
+
+/*-----------------------------Kullanıcıbaşlık-kayıtolbaşlık---------------------------*/
+/*span text */
+.txt1 {
+
+  font-size: 18px;
+  line-height: 1.4;
+  color: #ffffff;
+  
+}
+/*span text */
+.txt2 {
+  font-size: 17px;
+  line-height: 1.4;
+  color: #03A9F4;
+  text-decoration: none;
+}
+/*hover*/
+.hov1:hover {
+    color: #fff;
+}
+.text-center {text-align: center;}
+
+
+/*---------------------------Button------------------------------*/
+
+.button-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 60px;
+  background-color: #03A9F4;
+
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+/*button hover */
+.button-btn:hover {
+  background-color: #051922;
+}
+
+/*---------------------Buton-button:hover-----------------------*/
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+/*curser eklendi üstüne gelince mouse degişir.*/
+button:hover {
+	cursor: pointer;
+}
+
+
+
+/*-----------------------------------Yükseklik ayarları form-----------------------------------*/
+.pb-pt{padding-top: 45px; padding-bottom: 4px;}
+.mg-t {margin-top: 20px;}
+	.pdg-fl	{
+	padding-left: 55px;
+	padding-right: 55px;
+	padding-bottom: 47px;
+	padding-top: 60px;
+	}	
+.pdg-b{padding-bottom: 33px;}
+
+
+
+
+
+/************************************* Üyelik sözleşmesi ***********************************/
+.uyelik{
+  color: #3d3d47;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/****************************CheckBox***********************************/
+
+
+
